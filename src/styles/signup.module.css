@@ -1,0 +1,12 @@
+.container {
+  /* Display and Box Model  Properties*/
+  height: 100vh;
+  /* Color  Properties*/
+  background-color: #23304c;
+}
+
+.wrapper {
+  /* Display and Box Model  Properties*/
+  width: 80%;
+  margin: 0 auto;
+}

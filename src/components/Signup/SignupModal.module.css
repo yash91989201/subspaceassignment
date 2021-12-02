@@ -1,0 +1,133 @@
+.container {
+  /* Display and Box Model  Properties*/
+  border-radius: 10px;
+  width: 95%;
+  margin: 0 auto;
+  /* Color  Properties*/
+  background-color: #fff;
+}
+
+.wrapper {
+  /* Display and Box Model  Properties*/
+  display: flex;
+}
+
+.formContainer {
+  /* Display and Box Model  Properties*/
+  padding: 40px 0;
+  width: 35%;
+  box-shadow: 10px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.formHeader,
+.detailsHeader {
+  color: #474747;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.formWrapper {
+  /* Display and Box Model  Properties*/
+  width: 80%;
+  margin: 24px auto;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.inputField {
+  position: relative;
+  margin: 16px 0;
+}
+
+.inputField input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #bfbfbf;
+  font-size: 18px;
+}
+
+.inputField label {
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #859fc1;
+}
+
+.userConscent {
+  margin-right: 8px;
+}
+.userConscent + label {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.otpBtn {
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+  margin: 16px 0;
+  padding: 10px 24px;
+  background-color: #2b83ea;
+  color: #fff;
+}
+
+.termsAndConditions {
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.textBlue {
+  margin: 0 6px;
+  color: #2b83ea;
+}
+
+.detailsContainer {
+  /* Display and Box Model  Properties*/
+  padding: 40px 0;
+  width: 65%;
+  border-radius: 10px;
+  background-color: #fafafa;
+}
+
+.detailsWrapper {
+  /* Positioning  Properties*/
+  /* Display and Box Model  Properties*/
+  width: 95%;
+  margin: 0 auto;
+  /* margin: 0 auto; */
+  /* Color  Properties*/
+  /* Text  Properties*/
+  /* Other Properties */
+  /* Animation Properties */
+  /* Pseudo Class Properties*/
+  /* Media Query*/
+}
+
+.infoText {
+  font-size: 14px;
+  margin: 8px 0;
+  text-align: center;
+  color: rgba(76, 85, 101, 0.85);
+}
+
+.ottShowcaseContainer {
+  width: 70%;
+  margin: 40px auto;
+  display: grid;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+img {
+  width: 75%;
+}
+
+.smallText {
+  color: rgba(76, 85, 101, 0.85);
+  text-align: center;
+}

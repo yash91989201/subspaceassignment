@@ -1,0 +1,133 @@
+.wrapper {
+  width: 78%;
+}
+
+.customerDetailsWrapper {
+  height: 100vh;
+  background-color: #f0f3f4;
+}
+
+.headerContainer {
+  width: 100%;
+  background-color: #fff;
+}
+
+.headerWrapper {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  color: #23304c;
+  font-size: 48px;
+  font-weight: 500;
+}
+.userControls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userControls i {
+  padding: 0 24px;
+  font-size: 22px;
+}
+
+.notification {
+  border-radius: 24px;
+  background: linear-gradient(136.67deg, #ff409a 8.34%, #c438ef 95.26%);
+  margin-left: 16px;
+  padding: 4px 0;
+  display: flex;
+  color: hsla(221, 37%, 22%, 1);
+}
+
+.notification i,
+span {
+  padding: 0 6px;
+}
+
+.userAccount {
+  padding: 0 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.userAccount img {
+  margin: 0 16px;
+}
+
+.userAccount img {
+  width: 25px;
+}
+
+.customerDetailsTable {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+
+  width: 88%;
+  margin: 48px auto;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.detailsHeader {
+  padding: 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detailsHeader span {
+  position: relative;
+  padding: 24px 0;
+  border-bottom: 4px solid #2b83ea;
+  color: #2b83ea;
+}
+
+.detailsHeader button {
+  padding: 12px 32px;
+  border: 0;
+  outline: 0;
+  border-radius: 6px;
+  background-color: #2b83ea;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.detailsHeader button i {
+  margin-right: 8px;
+}
+
+.tDataSpacer {
+  height: 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.thead {
+  background-color: #f9f9f9;
+}
+
+.trow {
+  border-top: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 20px 24px;
+  display: flex;
+}
+
+.thead .trow {
+  padding: 26px;
+}
+
+.tbody .trow :nth-child(1) {
+  color: #2b83ea;
+}
+
+.tdata {
+  width: 25%;
+}
